@@ -274,9 +274,10 @@ nav {
 }
 .footer {
   grid-area: footer;
-  height: 130px;
-  span {
-    display:block;
+  height: 140px;
+  width: 100%;
+  a > span {
+    display: block;
     color: white;
     margin: 0 auto;
     margin-top: 10px;
